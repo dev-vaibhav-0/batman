@@ -16,7 +16,7 @@ import shlex
 app = Flask('')
 @app.route('/')
 def home():
-    return "NG Coin Bot is alive! (UltraMax Chaos) 💀"
+    return "Whatsup gang (UltraMax Chaos Update Lmao gang so cooking rn) 💀"
 def run():
     app.run(host='0.0.0.0', port=8080)
 def keep_alive():
@@ -26,8 +26,8 @@ def keep_alive():
 # ------------------- CONFIG -------------------
 # Put real VVVIP discord IDs here
 VVVIP_IDS = [
-    111111111111111111,  # replace with real IDs
-    222222222222222222
+    1386962259103846443,  # replace with real IDs
+    1387797536474927167
 ]
 
 TENOR_API_KEY = os.environ.get('TENOR_API_KEY')  # optional, for gifs
@@ -78,13 +78,13 @@ RARITY_CHANCES = {'Common':40,'Uncommon':30,'Rare':15,'Epic':10,'Legendary':4,'M
 RARITY_COLORS = {'Common':0x808080,'Uncommon':0x00ff00,'Rare':0x0080ff,'Epic':0x8000ff,'Legendary':0xffa500,'Mythic':0xff0080}
 
 HUNT_ANIMALS = [
-    ('🦌 Deer', 50, 150),
-    ('🐗 Boar', 75, 200),
-    ('🦅 Eagle', 100, 250),
-    ('🐺 Wolf', 150, 350),
-    ('🦁 Lion', 200, 500),
-    ('🐻 Bear', 250, 600),
-    ('🐉 Dragon', 500, 1000)
+    ('🦌 Dark Deer', 50, 150),
+    ('🐗 Dark Boar', 75, 200),
+    ('🦅 Dark Eagle', 100, 250),
+    ('🐺 Dark Wolf', 150, 350),
+    ('🦁 Dark Lion', 200, 500),
+    ('🐻 Darkb ear', 250, 600),
+    ('🐉 Dark Dragon', 500, 1000)
 ]
 
 # ------------------- VVVIP HELPERS -------------------
